@@ -2,15 +2,15 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   get '/bowling-name' do
-    "<h1> Buster's Best Bowling Alley</h1>"
+    "Buster's Best Bowling Alley"
   end
   
   get "/bowling-tagline" do
-    "<h2> Bet You Can't Bowl A Strike Every Time</h2>"
+    " Bet You Can't Bowl A Strike Every Time"
   end
   
   get "/bowling-address" do
-    "<p> 97 Bowling Alley Lane, Boulder CO </p>"
+    "97 Bowling Alley Lane, Boulder CO"
   end
 
 end
